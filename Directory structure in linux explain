@@ -1,0 +1,50 @@
+	  Root /
+
+	first directory in structure
+	Every files and directory starts from the root directory.
+	Only the root user of the system has the right to  write under the root          (/) directory.
+
+*One another directory with name root is under  
+  the root directory (/root) is the home directory of 
+  the root user.
+
+1)/bin     – local user's Binary files[not human readable]
+2)/boot   –It stores all information about boot loader.Kernel initd, grub files  are located into /boot directory.
+3)/dev    – [Device Files] It includes terminal devices, USB, or any 
+                    device attached to the system. ex./dev/tty1, /dev/usb
+
+4)/etc      – System  and program  configuration files
+
+5)/home – It contains the user’s home directories, 
+                 personal files, user’s personal settings, etc. 
+                 ex. /home/abhi
+
+6)/lib &/lib64 – [Shared Libraries] It stores libraries essential files for the binaries in /bin and /sbin.
+
+7)/media – It is temporary mount point for removable device such as /media/cdrom, /media/floppy
+
+8)/mnt    – It is for a temporarily mounting filesystem, where system admin can mount a file system
+
+9)/opt      –used for optional application software packages
+
+10)/root   -it is the home directory of the root user.
+
+11)/run    -it stores data that can give you an idea of how system resources are being utilized since startup
+12)/sbin   – Root user's binary files,
+                       It stores system related binaries executable. ex.ifconfig
+
+13)/srv    –service
+                     it contains server specific services related data
+
+14)/sys    - it contains information about various system components and drivers
+15)/tmp   – It stores files which are created by system or user for a temporary purpose.
+
+16)/usr    – [bin, sbin] It contains libraries, binaries, documentation, and source code 
+
+17)/var    - varible
+                    Stores files whose content is expected to change continuously ex. log files, spool files and cache files.
+
+18)/proc   –stores information about system process information
+                    ex. w, top, uptime
+
+
