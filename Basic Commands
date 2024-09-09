@@ -14,3 +14,18 @@ Basic Commands:
 #whatis  <command>    -->short info about command
 #ls               -->list all files and directories
 #cd             -->change directory (get inside directory)
+	 ls   -a         -->list hidden files
+	 ls   -l          -->long list, it will list detaied info of files
+	  ll               -->long list
+	 cd             -->change directory (get inside directory)
+	 cd  ..        -->back to previous location
+	 free  -h   -->display free memory
+	 df  -h       -->display disk details(storage)
+	 du  -sh    -->display size of file or directory
+	 dmidecode    -->display hardware information
+	sudo -i                  -->switch to root user
+	su root                 -->switch to root user
+	sudo - root           -->switch to root user
+	su - username      -->switch to local user
+	exit                       -->logout from current user
+
