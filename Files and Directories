@@ -1,0 +1,69 @@
+	Working  with text Files and Directories
+
+Directories:
+
+Que. How to create directory  ?
+	mkdir  <foldername>
+# mkdir demo
+
+Que. How to make multiple folder 
+	mkdir <folder1> <folder2>
+     #mkdir  images    files
+
+Que. How to make  sub directories within main directory
+	mkdir -p <foldername>/dir1/dir2/dir3
+# mkdir -p earth/asia/india/maharashtra/pune
+
+Que. How to create multiple directories at once
+	mkdir <mydir>{1..20}    
+# mkdir harrypotter{1..7} ->it will create 7 dir with the name of   
+                                                         Harrypotter 1 to 7
+
+Que. How to make directories inside another directory
+	mkdir <foldername>/{dir1,dir2}
+
+Files:
+To create files in linux use
+1)	Touch
+2)	Cat
+3)	Echo
+4)	Vi/vim
+
+Que.how to make empty file ?
+	touch <filename>
+# touch new.txt
+
+Que. How to create  file using cat command ?
+	cat > hello.txt
+->Hello world!    
+*enter
+*press cntl + d to save the file
+
+Que.How to append [edit] the content in the same file using cat ?
+	cat  >> hello.txt
+
+
+Que. How to view content in the file ?
+	cat filename
+
+Que. How to create file using echo command ?
+	echo  “ hello world ”  > file1.txt
+
+Remove/Delete  files or directories :
+
+Que. How to  remove only empty directory ?
+	rmdir <foldername>
+      # rmdir demo
+
+Que. How to remove directory with content?
+	rm -rvf <filename/foldername>
+
+r ->recursive[delete folder/file within file/folder]
+v ->view/verbose[shows the  action taken on screen]
+f ->forcefully remove
+
+# rm -rvf  earth
+Que. How to remove multiple directories with same prefix?
+	rm  -rvf   harrypotter{1..7}
+
+
