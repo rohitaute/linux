@@ -1,0 +1,16 @@
+Basic Commands:
+
+#whoami     -->display current user
+#pwd           -->display present working directory
+#hostname  -->shows hostname/machiname
+#hostaname   <name>  --> change hostname
+->#bash      -->update changes
+#uname -a      -->display os information
+#cat /etc/os-release      -->display os info
+#date          --> display current date
+#date  -s  '2024-04-16 10:15:05'  -->change date
+#<command>  --help    -->it will display all options related to command
+#man  <command>       -->complete info about commmand
+#whatis  <command>    -->short info about command
+#ls               -->list all files and directories
+#cd             -->change directory (get inside directory)
